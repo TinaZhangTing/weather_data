@@ -1,0 +1,15 @@
+demo3_savedata.py
+文件：_grib2netcdf-atls06-a82bacafb5c306db76464bc7e824bb75-aC8jVF.nc
+
+功能：
+1) 分别将time,lat,lon,u10,v10,si10存为csv
+2) 将天津船的航路点经纬度变为小数点后一位，然后二维插值，计算航路点的u10,v10,si10
+3) 插值之前的作图，和插值之后的作图
+4) 按1~12月份，分别提取各个月份的u10、v10和si10数据，并和天津船扩充后的航路点一起保存为csv
+即：Windspeed_Tianjin_month_1.csv保存了天津船航线lat,lon,1月份u10,1月份v10,1月份si10
+
+demo4_savedata.py
+按1~12月份，分别提取各个月份的u10、v10、mwd、mwp、swh数据，并和天津船扩充后的航路点一起保存为csv
+
+demo6_combinedata.py
+将提取出来的气象数据与天津船航路点数据结合
